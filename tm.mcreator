@@ -1,0 +1,79 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "MainTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "main_tab"
+    },
+    {
+      "name": "Darkdiamondore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_ore"
+    },
+    {
+      "name": "Darkdiamond",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond"
+    },
+    {
+      "name": "Darkdiamondsword",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondsword"
+    },
+    {
+      "name": "Darkdiamondpickaxe",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondpickaxe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmain_tab": "The Mod",
+      "item.tm.darkdiamondsword": "Dark Diamond Sword",
+      "block.tm.dark_diamond_ore": "Dark Diamond Ore",
+      "item.tm.dark_diamond": "Dark Diamond",
+      "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "tm",
+    "modName": "The Mod",
+    "version": "1.0.0",
+    "author": "Kayrouge, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "fr.kayrouge.tm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000322116
+}

@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dark_diamond_sword",
+    "customModelName": "Normal",
+    "name": "Dark Diamond Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 2,
+    "efficiency": 4.5,
+    "attackSpeed": 7.300000000000001,
+    "enchantability": 4,
+    "damageVsEntity": 8.700000000000001,
+    "usageCount": 1257,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkdiamond"
+      }
+    ]
+  }
+}

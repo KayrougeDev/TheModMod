@@ -1,0 +1,28 @@
+{
+  "_fv": 8,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dark_diamond_pickaxe",
+    "customModelName": "Normal",
+    "name": "Dark Diamond Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 13,
+    "efficiency": 11.5,
+    "attackSpeed": 0.6,
+    "enchantability": 4,
+    "damageVsEntity": 3.6,
+    "usageCount": 2659,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkdiamond"
+      }
+    ]
+  }
+}
