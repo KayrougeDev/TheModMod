@@ -1,0 +1,24 @@
+{
+  "group": "tm",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "tm:dark_diamond"
+    },
+    "1": {
+      "item": "tm:dark_diamond"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tm:darkdiamondsword",
+    "count": 1
+  }
+}

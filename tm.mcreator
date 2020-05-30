@@ -45,17 +45,62 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "darkdiamondpickaxe"
+    },
+    {
+      "name": "Darkdiamondblock",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondblock"
+    },
+    {
+      "name": "Darkdiamondblockrecipes",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondblockrecipes"
+    },
+    {
+      "name": "Darkdiamondpickaxerecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondpickaxerecipe"
+    },
+    {
+      "name": "Darkdiamondswordrecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darkdiamondswordrecipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.tm.darkdiamondblock": "Block of dark diamond",
       "itemGroup.tabmain_tab": "The Mod",
       "item.tm.darkdiamondsword": "Dark Diamond Sword",
       "block.tm.dark_diamond_ore": "Dark Diamond Ore",
       "item.tm.dark_diamond": "Dark Diamond",
       "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe"
+    },
+    "fr_fr": {
+      "block.tm.darkdiamondblock": "Block de diamand sombre",
+      "itemGroup.tabmain_tab": "The Mod",
+      "item.tm.darkdiamondsword": "Epée en diamand sombre",
+      "block.tm.dark_diamond_ore": "Minerais de diamand sombre",
+      "item.tm.dark_diamond": "Diamand sombre",
+      "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre"
     }
   },
   "workspaceSettings": {

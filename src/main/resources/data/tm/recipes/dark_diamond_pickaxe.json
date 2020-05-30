@@ -1,0 +1,30 @@
+{
+  "group": "tm",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "tm:dark_diamond"
+    },
+    "1": {
+      "item": "tm:dark_diamond"
+    },
+    "2": {
+      "item": "tm:dark_diamond"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tm:darkdiamondpickaxe",
+    "count": 1
+  }
+}

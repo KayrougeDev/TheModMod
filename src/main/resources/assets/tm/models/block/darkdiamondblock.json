@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/dark_diamond_block",
+    "up": "tm:blocks/dark_diamond_block",
+    "north": "tm:blocks/dark_diamond_block",
+    "east": "tm:blocks/dark_diamond_block",
+    "south": "tm:blocks/dark_diamond_block",
+    "west": "tm:blocks/dark_diamond_block",
+    "particle": "tm:blocks/dark_diamond_block"
+  }
+}
