@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Collections;
 
 import fr.kayrouge.tm.procedures.SolarPanelUpdateTickProcedure;
-import fr.kayrouge.tm.itemgroup.MainTabItemGroup;
+import fr.kayrouge.tm.itemgroup.EnergyTabItemGroup;
 import fr.kayrouge.tm.TmModElements;
 
 @TmModElements.ModElement.Tag
@@ -35,7 +35,7 @@ public class SolarPanelBlock extends TmModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MainTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(EnergyTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {

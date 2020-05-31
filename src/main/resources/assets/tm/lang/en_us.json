@@ -1,17 +1,17 @@
 {
   "itemGroup.tabmain_tab": "The Mod",
-  "item.tm.darkdiamondsword": "Dark Diamond Sword",
   "block.tm.energy_block": "Creavtive Energy Block",
+  "item.tm.darkdiamondsword": "Dark Diamond Sword",
   "block.tm.r_fcable_off": "RFcable OFF",
   "block.tm.dark_diamond_ore": "Dark Diamond Ore",
   "item.tm.dark_diamond": "Dark Diamond",
   "block.tm.buffer": "Buffer",
   "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+  "item.tm.energy_core": "Energy Core",
   "block.tm.darkdiamondblock": "Block of dark diamond",
   "text.no_xp": "No xp",
   "block.tm.solar_panel": "Solar Panel",
-  "itemGroup.tabenergy_tab": "Energy",
+  "itemGroup.tabenergy_tab": "Energy2 par Dreeperte Gaming",
   "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe",
-  "mod.container.main_menu": "Main Menu",
   "block.tm.splitter": "Splitter"
 }

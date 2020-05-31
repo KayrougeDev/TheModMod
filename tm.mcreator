@@ -385,6 +385,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "AdvancedSolarPanelRecipes",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advanced_solar_panel_recipes"
+    },
+    {
+      "name": "Solarpanelrecipes",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "solarpanelrecipes"
+    },
+    {
+      "name": "EnergyCore",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_core"
+    },
+    {
+      "name": "BufferRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "buffer_recipe"
+    },
+    {
+      "name": "SplitterRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "splitter_recipe"
+    },
+    {
+      "name": "EnergyCoreRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "energy_core_recipe"
     }
   ],
   "variable_elements": [
@@ -399,36 +453,36 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabmain_tab": "The Mod",
-      "item.tm.darkdiamondsword": "Dark Diamond Sword",
       "block.tm.energy_block": "Creavtive Energy Block",
+      "item.tm.darkdiamondsword": "Dark Diamond Sword",
       "block.tm.r_fcable_off": "RFcable OFF",
       "block.tm.dark_diamond_ore": "Dark Diamond Ore",
       "item.tm.dark_diamond": "Dark Diamond",
       "block.tm.buffer": "Buffer",
       "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+      "item.tm.energy_core": "Energy Core",
       "block.tm.darkdiamondblock": "Block of dark diamond",
       "text.no_xp": "No xp",
       "block.tm.solar_panel": "Solar Panel",
-      "itemGroup.tabenergy_tab": "Energy",
+      "itemGroup.tabenergy_tab": "Energy2 par Dreeperte Gaming",
       "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe",
-      "mod.container.main_menu": "Main Menu",
       "block.tm.splitter": "Splitter"
     },
     "fr_fr": {
       "itemGroup.tabmain_tab": "The Mod",
+      "block.tm.energy_block": "Block d\"énergie en creative",
       "item.tm.darkdiamondsword": "Epée en diamand sombre",
-      "block.tm.energy_block": "Creavtive Energy Block",
-      "block.tm.r_fcable_off": "RFcable OFF",
+      "block.tm.r_fcable_off": "Cable OFF",
       "block.tm.dark_diamond_ore": "Minerais de diamand sombre",
       "item.tm.dark_diamond": "Diamand sombre",
       "block.tm.buffer": "Buffer",
       "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+      "item.tm.energy_core": "Energy Core",
       "block.tm.darkdiamondblock": "Block de diamand sombre",
       "text.no_xp": "Pas Assez d\u0027XP",
       "block.tm.solar_panel": "Solar Panel",
       "itemGroup.tabenergy_tab": "Energy",
       "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre",
-      "mod.container.main_menu": "Menu Principal",
       "block.tm.splitter": "Splitter"
     }
   },

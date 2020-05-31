@@ -2,10 +2,10 @@
   "_fv": 8,
   "_type": "tab",
   "definition": {
-    "name": "Energy",
+    "name": "Energy2 by Dreeperte Gaming",
     "icon": {
-      "value": "Blocks.QUARTZ_BLOCK#2"
+      "value": "CUSTOM:RFcableOFF"
     },
-    "showSearch": false
+    "showSearch": true
   }
 }

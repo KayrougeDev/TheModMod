@@ -1,0 +1,30 @@
+{
+  "group": "energy_core",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "minecraft:redstone_torch"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:redstone_torch"
+    },
+    "7": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "tm:energy_core",
+    "count": 1
+  }
+}

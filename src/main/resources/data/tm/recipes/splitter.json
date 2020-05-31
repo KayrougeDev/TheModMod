@@ -1,0 +1,32 @@
+{
+  "group": "energy_machine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "tm:r_fcable_off"
+    },
+    "4": {
+      "item": "minecraft:granite"
+    },
+    "5": {
+      "item": "tm:r_fcable_off"
+    }
+  },
+  "result": {
+    "item": "tm:splitter",
+    "count": 1
+  }
+}
