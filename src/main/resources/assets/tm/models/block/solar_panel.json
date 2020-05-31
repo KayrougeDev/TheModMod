@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/framemachine",
+    "up": "tm:blocks/solartop",
+    "north": "tm:blocks/framemachine",
+    "east": "tm:blocks/framemachine",
+    "south": "tm:blocks/bufferinput",
+    "west": "tm:blocks/framemachine",
+    "particle": "tm:blocks/framemachine"
+  }
+}

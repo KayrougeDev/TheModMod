@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/bufferface",
+    "up": "tm:blocks/bufferface",
+    "north": "tm:blocks/bufferoutput",
+    "east": "tm:blocks/bufferinput",
+    "south": "tm:blocks/bufferface",
+    "west": "tm:blocks/bufferinput",
+    "particle": "tm:blocks/bufferface"
+  }
+}

@@ -11,18 +11,18 @@ import net.minecraft.block.Blocks;
 import fr.kayrouge.tm.TmModElements;
 
 @TmModElements.ModElement.Tag
-public class MainTabItemGroup extends TmModElements.ModElement {
-	public MainTabItemGroup(TmModElements instance) {
-		super(instance, 6);
+public class EnergyTabItemGroup extends TmModElements.ModElement {
+	public EnergyTabItemGroup(TmModElements instance) {
+		super(instance, 10);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabmain_tab") {
+		tab = new ItemGroup("tabenergy_tab") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.ANVIL, (int) (1));
+				return new ItemStack(Blocks.QUARTZ_PILLAR, (int) (1));
 			}
 
 			@OnlyIn(Dist.CLIENT)

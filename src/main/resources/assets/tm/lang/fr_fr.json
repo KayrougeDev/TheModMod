@@ -1,8 +1,17 @@
 {
-  "block.tm.darkdiamondblock": "Block de diamand sombre",
   "itemGroup.tabmain_tab": "The Mod",
   "item.tm.darkdiamondsword": "Epée en diamand sombre",
+  "block.tm.energy_block": "Creavtive Energy Block",
+  "block.tm.r_fcable_off": "RFcable OFF",
   "block.tm.dark_diamond_ore": "Minerais de diamand sombre",
   "item.tm.dark_diamond": "Diamand sombre",
-  "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre"
+  "block.tm.buffer": "Buffer",
+  "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+  "block.tm.darkdiamondblock": "Block de diamand sombre",
+  "text.no_xp": "Pas Assez d\u0027XP",
+  "block.tm.solar_panel": "Solar Panel",
+  "itemGroup.tabenergy_tab": "Energy",
+  "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre",
+  "mod.container.main_menu": "Menu Principal",
+  "block.tm.splitter": "Splitter"
 }

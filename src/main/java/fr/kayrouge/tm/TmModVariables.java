@@ -15,6 +15,7 @@ import net.minecraft.client.Minecraft;
 import java.util.function.Supplier;
 
 public class TmModVariables {
+	public static double EnergyDisplay = 0;
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "tm_worldvars";
 		public WorldVariables() {

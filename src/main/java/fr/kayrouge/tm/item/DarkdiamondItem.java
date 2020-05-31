@@ -15,7 +15,7 @@ public class DarkdiamondItem extends TmModElements.ModElement {
 	@ObjectHolder("tm:dark_diamond")
 	public static final Item block = null;
 	public DarkdiamondItem(TmModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override

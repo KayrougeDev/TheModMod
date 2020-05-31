@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/creativeenergy",
+    "up": "tm:blocks/creativeenergy",
+    "north": "tm:blocks/creativeenergy",
+    "east": "tm:blocks/creativeenergy",
+    "south": "tm:blocks/bufferinput",
+    "west": "tm:blocks/creativeenergy",
+    "particle": "tm:blocks/creativeenergy"
+  }
+}

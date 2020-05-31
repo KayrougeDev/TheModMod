@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/rfblockon",
+    "up": "tm:blocks/rfblockon",
+    "north": "tm:blocks/rfblockon",
+    "east": "tm:blocks/rfblockon",
+    "south": "tm:blocks/rfblockon",
+    "west": "tm:blocks/rfblockon",
+    "particle": "tm:blocks/rfblockon"
+  }
+}

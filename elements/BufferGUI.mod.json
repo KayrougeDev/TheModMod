@@ -1,0 +1,25 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:EnergyDisplay>",
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "name": "<VAR:EnergyDisplay>",
+          "x": 290,
+          "y": 107
+        }
+      }
+    ]
+  }
+}
