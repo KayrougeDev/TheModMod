@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "tm:block/corrupted_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "tm:block/corrupted_dimension_portal_ns"
+    }
+  }
+}

@@ -26,10 +26,10 @@ import fr.kayrouge.tm.TmModElements;
 
 @TmModElements.ModElement.Tag
 public class AdvancedSolarPanelBlock extends TmModElements.ModElement {
-	@ObjectHolder("tm:advanced_solar_panel")
+	@ObjectHolder("tm:tier2_solar_panel")
 	public static final Block block = null;
 	public AdvancedSolarPanelBlock(TmModElements instance) {
-		super(instance, 14);
+		super(instance, 19);
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class AdvancedSolarPanelBlock extends TmModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("advanced_solar_panel");
+			setRegistryName("tier2_solar_panel");
 		}
 
 		@Override

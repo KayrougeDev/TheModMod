@@ -11,7 +11,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class SplitterUpdateTickProcedure extends TmModElements.ModElement {
 	public SplitterUpdateTickProcedure(TmModElements instance) {
-		super(instance, 24);
+		super(instance, 36);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

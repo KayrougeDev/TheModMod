@@ -1,0 +1,30 @@
+{
+  "group": "tm",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "tm:void_material"
+    },
+    "3": {
+      "item": "tm:void_material"
+    },
+    "4": {
+      "item": "tm:corrupted_block"
+    },
+    "5": {
+      "item": "tm:void_material"
+    },
+    "7": {
+      "item": "tm:void_material"
+    }
+  },
+  "result": {
+    "item": "tm:void_block_material",
+    "count": 1
+  }
+}

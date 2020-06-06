@@ -11,7 +11,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class SolarPanelUpdateTickProcedure extends TmModElements.ModElement {
 	public SolarPanelUpdateTickProcedure(TmModElements instance) {
-		super(instance, 21);
+		super(instance, 33);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

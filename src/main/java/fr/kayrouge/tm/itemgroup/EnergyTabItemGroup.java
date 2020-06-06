@@ -13,7 +13,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class EnergyTabItemGroup extends TmModElements.ModElement {
 	public EnergyTabItemGroup(TmModElements instance) {
-		super(instance, 10);
+		super(instance, 28);
 	}
 
 	@Override
@@ -27,9 +27,9 @@ public class EnergyTabItemGroup extends TmModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public boolean hasSearchBar() {
-				return true;
+				return false;
 			}
-		}.setBackgroundImageName("item_search.png");
+		};
 	}
 	public static ItemGroup tab;
 }

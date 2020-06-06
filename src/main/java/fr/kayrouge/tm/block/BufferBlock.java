@@ -70,7 +70,7 @@ public class BufferBlock extends TmModElements.ModElement {
 	@ObjectHolder("tm:buffer")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public BufferBlock(TmModElements instance) {
-		super(instance, 11);
+		super(instance, 16);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

@@ -1,0 +1,17 @@
+{
+  "_fv": 8,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "energy_core",
+    "name": "Creeper Troll Disc",
+    "description": "Minecraft - Creeper Primed",
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "music": {
+      "value": "entity.creeper.primed"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

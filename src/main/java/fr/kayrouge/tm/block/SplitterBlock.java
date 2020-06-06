@@ -29,7 +29,7 @@ public class SplitterBlock extends TmModElements.ModElement {
 	@ObjectHolder("tm:splitter")
 	public static final Block block = null;
 	public SplitterBlock(TmModElements instance) {
-		super(instance, 15);
+		super(instance, 17);
 	}
 
 	@Override

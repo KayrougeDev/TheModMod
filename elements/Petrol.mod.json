@@ -1,0 +1,21 @@
+{
+  "_fv": 8,
+  "_type": "fluid",
+  "definition": {
+    "name": "Petrol",
+    "textureStill": "petrol_still",
+    "textureFlowing": "petrol_flow",
+    "luminosity": 0,
+    "density": 1001,
+    "viscosity": 996,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "spawnWorldTypes": [
+      "CUSTOM:CorruptedDimension"
+    ]
+  }
+}

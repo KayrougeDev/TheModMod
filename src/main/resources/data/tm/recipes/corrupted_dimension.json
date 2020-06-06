@@ -1,0 +1,9 @@
+{
+  "group": "tm",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tm:corrupted_block"
+  },
+  "result": "tm:corrupted_dimension"
+}

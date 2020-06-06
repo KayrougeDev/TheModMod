@@ -11,7 +11,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class RFcableOFFUpdateTickProcedure extends TmModElements.ModElement {
 	public RFcableOFFUpdateTickProcedure(TmModElements instance) {
-		super(instance, 20);
+		super(instance, 32);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

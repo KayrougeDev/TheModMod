@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tm:block/tier2_solar_panel"
+    }
+  }
+}

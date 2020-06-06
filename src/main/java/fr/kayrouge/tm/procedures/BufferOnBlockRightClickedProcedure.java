@@ -10,7 +10,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class BufferOnBlockRightClickedProcedure extends TmModElements.ModElement {
 	public BufferOnBlockRightClickedProcedure(TmModElements instance) {
-		super(instance, 18);
+		super(instance, 30);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

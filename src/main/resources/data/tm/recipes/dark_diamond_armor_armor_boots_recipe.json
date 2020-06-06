@@ -1,0 +1,26 @@
+{
+  "group": "tm",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "tm:dark_diamond"
+    },
+    "2": {
+      "item": "tm:dark_diamond"
+    },
+    "3": {
+      "item": "tm:dark_diamond"
+    },
+    "5": {
+      "item": "tm:dark_diamond"
+    }
+  },
+  "result": {
+    "item": "tm:dark_diamond_armorboots",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "advancements.first_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.first_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_advancement": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "tm:dark_diamond_block",
+      "tm:dark_diamond_pickaxe",
+      "tm:dark_diamond_sword",
+      "tm:advanced_solar_panel",
+      "tm:solar_panel",
+      "tm:buffer",
+      "tm:splitter",
+      "tm:energy_core",
+      "tm:rf_cable_off"
+    ]
+  }
+}

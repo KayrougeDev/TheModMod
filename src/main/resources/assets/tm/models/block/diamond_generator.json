@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/diamondgen",
+    "up": "tm:blocks/diamondgen",
+    "north": "tm:blocks/bufferoutput",
+    "east": "tm:blocks/diamondgen",
+    "south": "tm:blocks/diamondgen",
+    "west": "tm:blocks/diamondgen",
+    "particle": "tm:blocks/diamondgen"
+  }
+}

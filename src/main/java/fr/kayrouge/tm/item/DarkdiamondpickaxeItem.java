@@ -17,7 +17,7 @@ public class DarkdiamondpickaxeItem extends TmModElements.ModElement {
 	@ObjectHolder("tm:darkdiamondpickaxe")
 	public static final Item block = null;
 	public DarkdiamondpickaxeItem(TmModElements instance) {
-		super(instance, 5);
+		super(instance, 2);
 	}
 
 	@Override

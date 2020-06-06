@@ -1,5 +1,5 @@
 {
-  "parent": "tm:block/r_fcable_off",
+  "parent": "tm:block/tier2_solar_panel",
   "display": {
     "thirdperson": {
       "rotation": [

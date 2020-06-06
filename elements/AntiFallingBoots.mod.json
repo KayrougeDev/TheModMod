@@ -1,0 +1,50 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": true,
+    "textureBoots": "anti_falling_boots",
+    "onBootsTick": {
+      "name": "AntiFallingBootsBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "armorTextureFile": "darkdiamondarmor",
+    "helmetName": "Anti Falling Boots Helmet",
+    "bodyName": "Anti Falling Boots Body",
+    "leggingsName": "Anti Falling Boots Leggings",
+    "bootsName": "Anti Falling Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 21,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 6,
+    "enchantability": 11,
+    "toughness": 2.3000000000000003,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/corrupted_block",
+    "up": "tm:blocks/corrupted_block",
+    "north": "tm:blocks/corrupted_block",
+    "east": "tm:blocks/corrupted_block",
+    "south": "tm:blocks/corrupted_block",
+    "west": "tm:blocks/corrupted_block",
+    "particle": "tm:blocks/corrupted_block"
+  }
+}

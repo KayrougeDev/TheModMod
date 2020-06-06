@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tm:block/void_block_material"
+    }
+  }
+}

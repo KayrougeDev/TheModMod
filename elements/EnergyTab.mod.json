@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:RFcableOFF"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

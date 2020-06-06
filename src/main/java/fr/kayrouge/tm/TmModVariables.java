@@ -16,6 +16,8 @@ import java.util.function.Supplier;
 
 public class TmModVariables {
 	public static double EnergyDisplay = 0;
+	public static double LeveLevel = 0;
+	public static String LevelDisplay = "";
 	public static class WorldVariables extends WorldSavedData {
 		public static final String DATA_NAME = "tm_worldvars";
 		public WorldVariables() {

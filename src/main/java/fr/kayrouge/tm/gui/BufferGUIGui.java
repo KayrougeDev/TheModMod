@@ -24,6 +24,7 @@ import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.resources.I18n;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
@@ -40,7 +41,7 @@ public class BufferGUIGui extends TmModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
 	public BufferGUIGui(TmModElements instance) {
-		super(instance, 22);
+		super(instance, 23);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -107,7 +108,7 @@ public class BufferGUIGui extends TmModElements.ModElement {
 			this.y = container.y;
 			this.z = container.z;
 			this.entity = container.entity;
-			this.xSize = 176;
+			this.xSize = 185;
 			this.ySize = 166;
 		}
 		private static final ResourceLocation texture = new ResourceLocation("tm:textures/buffer_gui.png");
@@ -134,7 +135,8 @@ public class BufferGUIGui extends TmModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("" + (TmModVariables.EnergyDisplay) + "", 20, 17, -26368);
+			this.font.drawString("" + (TmModVariables.EnergyDisplay) + "", 47, 83, -26368);
+			this.font.drawString(I18n.format("container.buffer"), 2, 2, -12566464);
 		}
 
 		@Override

@@ -1,0 +1,42 @@
+{
+  "group": "rf_cable",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_concrete"
+    },
+    "1": {
+      "item": "tm:energy_core"
+    },
+    "2": {
+      "item": "minecraft:black_concrete"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:black_concrete"
+    },
+    "7": {
+      "item": "minecraft:black_concrete"
+    },
+    "8": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "tm:rf_cable_off",
+    "count": 7
+  }
+}

@@ -10,7 +10,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class RFcableOFFBlockIsPlacedByProcedure extends TmModElements.ModElement {
 	public RFcableOFFBlockIsPlacedByProcedure(TmModElements instance) {
-		super(instance, 19);
+		super(instance, 31);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

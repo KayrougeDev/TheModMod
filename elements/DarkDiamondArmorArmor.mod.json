@@ -1,0 +1,54 @@
+{
+  "_fv": 8,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "darkdiamondarmor_head",
+    "enableBody": true,
+    "textureBody": "darkdiamondarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "darkdiamondarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "darkdiamondarmor_boots",
+    "onHelmetTick": {
+      "name": "DarkDiamondArmorArmorHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "armorTextureFile": "darkdiamondarmor",
+    "helmetName": "Dark Diamond Helmet",
+    "bodyName": "Dark Diamond Chestplate",
+    "leggingsName": "Dark Diamond Leggings",
+    "bootsName": "Dark Diamond Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 45,
+    "damageValueHelmet": 10,
+    "damageValueBody": 16,
+    "damageValueLeggings": 14,
+    "damageValueBoots": 10,
+    "enchantability": 16,
+    "toughness": 2.6999999999999997,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Darkdiamond"
+      }
+    ]
+  }
+}

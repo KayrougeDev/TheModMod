@@ -1,0 +1,9 @@
+{
+  "group": "tm",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tm:anti_falling_bootsboots"
+  },
+  "result": "tm:dark_diamond_armorboots"
+}

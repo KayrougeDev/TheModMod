@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/void_material",
+    "up": "tm:blocks/void_material",
+    "north": "tm:blocks/void_material",
+    "east": "tm:blocks/void_material",
+    "south": "tm:blocks/void_material",
+    "west": "tm:blocks/void_material",
+    "particle": "tm:blocks/void_material"
+  }
+}

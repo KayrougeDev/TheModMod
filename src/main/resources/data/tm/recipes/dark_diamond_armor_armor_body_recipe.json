@@ -1,0 +1,39 @@
+{
+  "group": "tm",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tm:dark_diamond"
+    },
+    "2": {
+      "item": "tm:dark_diamond"
+    },
+    "3": {
+      "item": "tm:dark_diamond"
+    },
+    "4": {
+      "item": "tm:dark_diamond"
+    },
+    "5": {
+      "item": "tm:dark_diamond"
+    },
+    "6": {
+      "item": "tm:dark_diamond"
+    },
+    "7": {
+      "item": "tm:dark_diamond"
+    },
+    "8": {
+      "item": "tm:dark_diamond"
+    }
+  },
+  "result": {
+    "item": "tm:dark_diamond_armorbody",
+    "count": 1
+  }
+}

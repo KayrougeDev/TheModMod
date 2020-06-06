@@ -83,11 +83,7 @@
       "Nether"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.NETHERRACK"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 2,
     "minGenerateHeight": 9,

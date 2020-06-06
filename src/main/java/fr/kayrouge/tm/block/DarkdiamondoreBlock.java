@@ -22,7 +22,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -39,7 +38,7 @@ public class DarkdiamondoreBlock extends TmModElements.ModElement {
 	@ObjectHolder("tm:dark_diamond_ore")
 	public static final Block block = null;
 	public DarkdiamondoreBlock(TmModElements instance) {
-		super(instance, 1);
+		super(instance, 7);
 	}
 
 	@Override
@@ -78,8 +77,6 @@ public class DarkdiamondoreBlock extends TmModElements.ModElement {
 				}
 			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("dark_diamond_ore", "dark_diamond_ore", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
-					blockCriteria = true;
 				return blockCriteria;
 			}), block.getDefaultState(), 2)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(4, 9, 9, 80))));
 		}

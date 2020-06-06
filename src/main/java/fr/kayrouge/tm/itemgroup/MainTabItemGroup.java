@@ -13,7 +13,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class MainTabItemGroup extends TmModElements.ModElement {
 	public MainTabItemGroup(TmModElements instance) {
-		super(instance, 6);
+		super(instance, 24);
 	}
 
 	@Override

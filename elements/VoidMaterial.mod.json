@@ -1,0 +1,27 @@
+{
+  "_fv": 8,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "void_material",
+    "customModelName": "Normal",
+    "name": "Void Material",
+    "creativeTab": {
+      "value": "CUSTOM:MainTab"
+    },
+    "stackSize": 8,
+    "enchantability": 0,
+    "useDuration": -5,
+    "toolType": 7.800000000000001,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

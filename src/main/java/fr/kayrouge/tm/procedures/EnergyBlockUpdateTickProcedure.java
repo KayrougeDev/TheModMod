@@ -11,7 +11,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class EnergyBlockUpdateTickProcedure extends TmModElements.ModElement {
 	public EnergyBlockUpdateTickProcedure(TmModElements instance) {
-		super(instance, 25);
+		super(instance, 37);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

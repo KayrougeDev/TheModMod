@@ -11,7 +11,7 @@ import fr.kayrouge.tm.TmModElements;
 @TmModElements.ModElement.Tag
 public class BufferUpdateTickProcedure extends TmModElements.ModElement {
 	public BufferUpdateTickProcedure(TmModElements instance) {
-		super(instance, 17);
+		super(instance, 29);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "tm:void_item"
+    },
+    "title": {
+      "translate": "advancements.void_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.void_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "void_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 2
+  },
+  "parent": "tm:first_advancement"
+}

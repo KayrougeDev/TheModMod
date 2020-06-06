@@ -5,7 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.server.ServerWorld;
-import net.minecraft.world.World;
 import net.minecraft.world.IWorldReader;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
@@ -29,7 +28,7 @@ public class EnergyBlockBlock extends TmModElements.ModElement {
 	@ObjectHolder("tm:energy_block")
 	public static final Block block = null;
 	public EnergyBlockBlock(TmModElements instance) {
-		super(instance, 16);
+		super(instance, 20);
 	}
 
 	@Override
@@ -39,13 +38,13 @@ public class EnergyBlockBlock extends TmModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).lightValue(0).tickRandomly());
 			setRegistryName("energy_block");
 		}
 
 		@Override
 		public int tickRate(IWorldReader world) {
-			return 5;
+			return 12;
 		}
 
 		@Override
@@ -54,15 +53,6 @@ public class EnergyBlockBlock extends TmModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean moving) {
-			super.onBlockAdded(state, world, pos, oldState, moving);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 
 		@Override
@@ -79,7 +69,6 @@ public class EnergyBlockBlock extends TmModElements.ModElement {
 				$_dependencies.put("world", world);
 				EnergyBlockUpdateTickProcedure.executeProcedure($_dependencies);
 			}
-			world.getPendingBlockTicks().scheduleTick(new BlockPos(x, y, z), this, this.tickRate(world));
 		}
 	}
 }

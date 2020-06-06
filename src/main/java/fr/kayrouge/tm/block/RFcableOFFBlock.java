@@ -57,12 +57,12 @@ import fr.kayrouge.tm.TmModElements;
 
 @TmModElements.ModElement.Tag
 public class RFcableOFFBlock extends TmModElements.ModElement {
-	@ObjectHolder("tm:r_fcable_off")
+	@ObjectHolder("tm:rf_cable_off")
 	public static final Block block = null;
-	@ObjectHolder("tm:r_fcable_off")
+	@ObjectHolder("tm:rf_cable_off")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public RFcableOFFBlock(TmModElements instance) {
-		super(instance, 12);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -74,12 +74,12 @@ public class RFcableOFFBlock extends TmModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerTileEntity(RegistryEvent.Register<TileEntityType<?>> event) {
-		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("r_fcable_off"));
+		event.getRegistry().register(TileEntityType.Builder.create(CustomTileEntity::new, block).build(null).setRegistryName("rf_cable_off"));
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.CLOTH).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("r_fcable_off");
+			setRegistryName("rf_cable_off");
 		}
 
 		@Override
@@ -241,7 +241,7 @@ public class RFcableOFFBlock extends TmModElements.ModElement {
 
 		@Override
 		public ITextComponent getDefaultName() {
-			return new StringTextComponent("r_fcable_off");
+			return new StringTextComponent("rf_cable_off");
 		}
 
 		@Override

@@ -1,0 +1,41 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "item.void_item.name",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "item.void_item.name",
+          "x": 306,
+          "y": 87
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "VoidItemGuiClear"
+          },
+          "name": "Slot #0",
+          "x": 383,
+          "y": 155
+        }
+      }
+    ]
+  }
+}

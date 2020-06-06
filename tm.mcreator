@@ -4,7 +4,7 @@
     {
       "name": "MainTab",
       "type": "tab",
-      "sortid": 6,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "Darkdiamondore",
       "type": "block",
-      "sortid": 1,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "Darkdiamond",
       "type": "item",
-      "sortid": 2,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "Darkdiamondsword",
       "type": "tool",
-      "sortid": 4,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "Darkdiamondpickaxe",
       "type": "tool",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "Darkdiamondblock",
       "type": "block",
-      "sortid": 3,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "Darkdiamondblockrecipes",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "Darkdiamondpickaxerecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "Darkdiamondswordrecipe",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "EnergyTab",
       "type": "tab",
-      "sortid": 10,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "Buffer",
       "type": "block",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,34 +103,34 @@
     {
       "name": "RFcableOFF",
       "type": "block",
-      "sortid": 12,
+      "sortid": 22,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
-      "registry_name": "r_fcable_off"
+      "registry_name": "rf_cable_off"
     },
     {
       "name": "SolarPanel",
       "type": "block",
-      "sortid": 13,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "solar_panel"
+      "registry_name": "tier1_solar_panel"
     },
     {
       "name": "AdvancedSolarPanel",
       "type": "block",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "advanced_solar_panel"
+      "registry_name": "tier2_solar_panel"
     },
     {
       "name": "Splitter",
       "type": "block",
-      "sortid": 15,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "EnergyBlock",
       "type": "block",
-      "sortid": 16,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "BufferUpdateTick",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -177,7 +177,7 @@
     {
       "name": "BufferOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -206,7 +206,7 @@
     {
       "name": "RFcableOFFBlockIsPlacedBy",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "RFcableOFFUpdateTick",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -264,7 +264,7 @@
     {
       "name": "SolarPanelUpdateTick",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -293,16 +293,16 @@
     {
       "name": "BufferGUI",
       "type": "gui",
-      "sortid": 22,
+      "sortid": 34,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "buffer_gui"
     },
     {
       "name": "AdvancedSolarPanelUpdateProcedure",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -331,7 +331,7 @@
     {
       "name": "SplitterUpdateTick",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -360,7 +360,7 @@
     {
       "name": "EnergyBlockUpdateTick",
       "type": "procedure",
-      "sortid": 25,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -389,7 +389,7 @@
     {
       "name": "AdvancedSolarPanelRecipes",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -398,7 +398,7 @@
     {
       "name": "Solarpanelrecipes",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -407,16 +407,16 @@
     {
       "name": "EnergyCore",
       "type": "item",
-      "sortid": 28,
+      "sortid": 21,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "energy_core"
     },
     {
       "name": "BufferRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -425,7 +425,7 @@
     {
       "name": "SplitterRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -434,11 +434,390 @@
     {
       "name": "EnergyCoreRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "energy_core_recipe"
+    },
+    {
+      "name": "RFcableOFFRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "r_fcable_off_recipe"
+    },
+    {
+      "name": "FirstAdvancement",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_advancement"
+    },
+    {
+      "name": "CorruptedPlains",
+      "type": "biome",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_plains"
+    },
+    {
+      "name": "CorruptedDimension",
+      "type": "dimension",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_dimension"
+    },
+    {
+      "name": "CorruptedBlock",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_block"
+    },
+    {
+      "name": "IronGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronGenerator",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "diamond_generator"
+    },
+    {
+      "name": "CorruptedDimensionRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "corrupted_dimension_recipe"
+    },
+    {
+      "name": "DarkDiamondArmorArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DarkDiamondArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor_armor_helmet_recipe"
+    },
+    {
+      "name": "DarkDiamondArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor_armor_body_recipe"
+    },
+    {
+      "name": "DarkDiamondArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor_armor_leggings_recipe"
+    },
+    {
+      "name": "DarkDiamondArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor_armor_boots_recipe"
+    },
+    {
+      "name": "DarkDiamondArmorArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_diamond_armor_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiFallingBootsBootsTickEvent",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_falling_boots_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiFallingBoots",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_falling_boots",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "AntiFallingBootsRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_falling_boots_recipe"
+    },
+    {
+      "name": "AntiFallingBootsUnrecipes",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_falling_boots_unrecipes"
+    },
+    {
+      "name": "Petrol",
+      "type": "fluid",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrol"
+    },
+    {
+      "name": "CreeperTrollDisc",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_troll_disc"
+    },
+    {
+      "name": "VoidItem",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_item"
+    },
+    {
+      "name": "VoidItemGui",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_item_gui"
+    },
+    {
+      "name": "VoidItemGuiClear",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_item_gui_clear",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidAdvancement",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_advancement"
+    },
+    {
+      "name": "GUICloseButtonProcedure",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gui_close_button_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModMainMenu",
+      "type": "gui",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mod_main_menu"
+    },
+    {
+      "name": "VoidItemRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_item_recipe"
+    },
+    {
+      "name": "VoidMaterial",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_material"
+    },
+    {
+      "name": "UncompresedBedrock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncompresed_bedrock"
+    },
+    {
+      "name": "VoidBlockMaterial",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block_material"
+    },
+    {
+      "name": "VoidBlockMaterialRecipes",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block_material_recipes"
+    },
+    {
+      "name": "VoidMaterialRecipes",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_material_recipes"
+    },
+    {
+      "name": "VoidBlockMaterialRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_block_material_recipe"
+    },
+    {
+      "name": "UncompresedBedrockRrecipes",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uncompresed_bedrock_rrecipes"
+    },
+    {
+      "name": "PetrolFuel",
+      "type": "fuel",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "petrol_fuel"
     }
   ],
   "variable_elements": [
@@ -447,43 +826,105 @@
       "type": "number",
       "scope": "global",
       "value": "0"
+    },
+    {
+      "name": "LeveLevel",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "LevelDisplay",
+      "type": "string",
+      "scope": "global",
+      "value": ""
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "itemGroup.tabmain_tab": "The Mod",
-      "block.tm.energy_block": "Creavtive Energy Block",
+      "item.tm.dark_diamond_armorboots": "Dark Diamond Boots",
+      "advancements.void_advancement.descr": "clear an item in the void item",
+      "item.tm.anti_falling_bootsbody": "Anti Falling Boots Body",
+      "block.tm.diamond_generator": "Diamond Generator",
+      "block.tm.buffer": "Buffer",
+      "item.tm.anti_falling_bootsboots": "Anti Falling Boots",
+      "text.no_xp": "No xp",
+      "item.tm.anti_falling_bootshelmet": "Anti Falling Boots Helmet",
+      "item.tm.dark_diamond_armorhelmet": "Dark Diamond Helmet",
+      "item.tm.void_material": "Void Material",
+      "itemGroup.tabenergy_tab": "Energy2 by Dreeperte Gaming",
+      "item.tm.dark_diamond_armorlegs": "Dark Diamond Leggings",
+      "item.tm.anti_falling_bootslegs": "Anti Falling Boots Leggings",
+      "block.tm.uncompresed_bedrock": "Uncompresed Bedrock",
+      "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe",
+      "block.tm.void_block_material": "Void Block Material",
+      "tooltip.energie_core": "By Kayrouge",
+      "item.tm.dark_diamond_armorbody": "Dark Diamond Chestplate",
       "item.tm.darkdiamondsword": "Dark Diamond Sword",
-      "block.tm.r_fcable_off": "RFcable OFF",
+      "block.tm.energy_block": "Creavtive Energy Block",
+      "block.tm.tier1_solar_panel": "Tier 1 Solar Panel",
       "block.tm.dark_diamond_ore": "Dark Diamond Ore",
       "item.tm.dark_diamond": "Dark Diamond",
-      "block.tm.buffer": "Buffer",
-      "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+      "item.tm.corrupted_dimension": "Corrupted Dimension",
+      "block.tm.tier2_solar_panel": "Tier 2 Solar Panel",
+      "item.tm.void_item": "Void Item",
+      "fluid.petrol": "Petrol",
+      "block.tm.corrupted_block": "Corrupted Block",
+      "container.buffer": "Buffer",
       "item.tm.energy_core": "Energy Core",
       "block.tm.darkdiamondblock": "Block of dark diamond",
-      "text.no_xp": "No xp",
-      "block.tm.solar_panel": "Solar Panel",
-      "itemGroup.tabenergy_tab": "Energy2 par Dreeperte Gaming",
-      "item.tm.darkdiamondpickaxe": "Dark Diamond Pickaxe",
-      "block.tm.splitter": "Splitter"
+      "item.tm.creeper_troll_disc.desc": "Minecraft - Creeper Primed",
+      "advancements.first_advancement.title": "The Mod",
+      "item.tm.creeper_troll_disc": "Creeper Troll Disc",
+      "advancements.void_advancement.title": "The Void",
+      "advancements.first_advancement.descr": "Inutil Advancement",
+      "block.tm.rf_cable_off": "RFcable OFF",
+      "block.tm.splitter": "Splitter",
+      "item.tm.petrol_bucket": "Petrol Bucket"
     },
     "fr_fr": {
       "itemGroup.tabmain_tab": "The Mod",
-      "block.tm.energy_block": "Block d\"énergie en creative",
+      "item.tm.dark_diamond_armorboots": "Dark Diamond Boots",
+      "advancements.void_advancement.descr": "clear an item in the void item",
+      "item.tm.anti_falling_bootsbody": "Anti Falling Boots Body",
+      "block.tm.diamond_generator": "Générateur de mod",
+      "block.tm.buffer": "Buffer",
+      "item.tm.anti_falling_bootsboots": "Anti Falling Boots",
+      "text.no_xp": "Pas Assez d\u0027XP",
+      "item.tm.anti_falling_bootshelmet": "Anti Falling Boots Helmet",
+      "item.tm.dark_diamond_armorhelmet": "Dark Diamond Helmet",
+      "item.tm.void_material": "Void Material",
+      "itemGroup.tabenergy_tab": "Energy2 par Dreeperte Gaming",
+      "item.tm.dark_diamond_armorlegs": "Dark Diamond Leggings",
+      "item.tm.anti_falling_bootslegs": "Anti Falling Boots Leggings",
+      "block.tm.uncompresed_bedrock": "Uncompresed Bedrock",
+      "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre",
+      "block.tm.void_block_material": "Void Block Material",
+      "tooltip.energie_core": "Par Kayrouge",
+      "item.tm.dark_diamond_armorbody": "Dark Diamond Chestplate",
+      "block.tm.energy_block": "Block d\u0027énergie en creative",
       "item.tm.darkdiamondsword": "Epée en diamand sombre",
-      "block.tm.r_fcable_off": "Cable OFF",
+      "block.tm.tier1_solar_panel": "Solar Panel",
       "block.tm.dark_diamond_ore": "Minerais de diamand sombre",
       "item.tm.dark_diamond": "Diamand sombre",
-      "block.tm.buffer": "Buffer",
-      "block.tm.advanced_solar_panel": "Advanced Solar Panel",
+      "item.tm.corrupted_dimension": "Corrupted Dimension",
+      "block.tm.tier2_solar_panel": "Advanced Solar Panel",
+      "item.tm.void_item": "Void Item",
+      "fluid.petrol": "Petrol",
+      "block.tm.corrupted_block": "Corrupted Block",
+      "container.buffer": "Buffer",
       "item.tm.energy_core": "Energy Core",
       "block.tm.darkdiamondblock": "Block de diamand sombre",
-      "text.no_xp": "Pas Assez d\u0027XP",
-      "block.tm.solar_panel": "Solar Panel",
-      "itemGroup.tabenergy_tab": "Energy",
-      "item.tm.darkdiamondpickaxe": "Pioche en diamand sombre",
-      "block.tm.splitter": "Splitter"
+      "item.tm.creeper_troll_disc.desc": "Minecraft - Creeper Primed",
+      "advancements.first_advancement.title": "The Mod",
+      "item.tm.creeper_troll_disc": "Creeper Troll Disc",
+      "advancements.void_advancement.title": "The Void",
+      "advancements.first_advancement.descr": "Inutil Advancement",
+      "block.tm.rf_cable_off": "RFcable",
+      "block.tm.splitter": "Splitter",
+      "item.tm.petrol_bucket": "Petrol Bucket"
     }
   },
   "workspaceSettings": {

@@ -1,5 +1,5 @@
 {
-  "parent": "tm:block/solar_panel",
+  "parent": "tm:block/uncompresed_bedrock",
   "display": {
     "thirdperson": {
       "rotation": [

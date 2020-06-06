@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "tm:block/r_fcable_off"
+      "model": "tm:block/rf_cable_off"
     }
   }
 }

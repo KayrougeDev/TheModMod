@@ -3,7 +3,7 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 352,
+    "width": 369,
     "height": 332,
     "renderBgLayer": true,
     "components": [
@@ -16,8 +16,21 @@
             "falpha": 0.0
           },
           "name": "<VAR:EnergyDisplay>",
-          "x": 290,
-          "y": 107
+          "x": 336,
+          "y": 240
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "container.buffer",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "container.buffer",
+          "x": 246,
+          "y": 78
         }
       }
     ]

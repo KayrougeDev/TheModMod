@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "tm:blocks/uncompresed_bedrock",
+    "up": "tm:blocks/uncompresed_bedrock",
+    "north": "tm:blocks/uncompresed_bedrock",
+    "east": "tm:blocks/uncompresed_bedrock",
+    "south": "tm:blocks/uncompresed_bedrock",
+    "west": "tm:blocks/uncompresed_bedrock",
+    "particle": "tm:blocks/uncompresed_bedrock"
+  }
+}

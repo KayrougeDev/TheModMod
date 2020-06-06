@@ -1,0 +1,26 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 350,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "X",
+          "onClick": {
+            "name": "GUICloseButtonProcedure"
+          },
+          "width": 20,
+          "height": 40,
+          "name": "X",
+          "x": 601,
+          "y": 70
+        }
+      }
+    ]
+  }
+}

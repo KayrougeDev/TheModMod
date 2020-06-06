@@ -16,13 +16,13 @@
       "item": "minecraft:iron_ingot"
     },
     "3": {
-      "item": "tm:r_fcable_off"
+      "item": "tm:rf_cable_off"
     },
     "4": {
       "item": "minecraft:granite"
     },
     "5": {
-      "item": "tm:r_fcable_off"
+      "item": "tm:rf_cable_off"
     }
   },
   "result": {
